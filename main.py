@@ -263,7 +263,7 @@ async def get_prediction_used_car_price(location: str = "", year: str = "", km_d
 
 
 if __name__ == "__main__":
-    uvicorn.run(app,port=int(os.environ.get('PORT', 8888)), host="0.0.0.0")
+    uvicorn.run(app,port=int(os.environ.get('PORT', 8080)), host="0.0.0.0")
 
 
 #Behind The Codes
